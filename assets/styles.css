@@ -1,3 +1,60 @@
 h1 {
 	text-align: center;
 }
+
+body{
+background-color:#800000;
+	font-family: sans-serif;
+	color: #EEE8AA;
+}
+
+#wrapper{
+	padding-left: 10%;
+	padding-right: 10%;
+	margin:0 auto;
+    width: 60%;
+    height: 100%;
+    max-width: 600px;
+    border:5px solid;
+
+}
+
+#ray {
+    margin:0 auto; 
+    text-align: center;
+}  
+img{
+    border:5px solid;
+	border-radius:15px;
+}
+
+ div#left-sidebar{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 10%;
+  height: 100%;
+  background-color: black;
+ }
+ div#right-sidebar{
+  background-color: black;
+  position:absolute;
+  top:0;
+  right:0;
+  width: 10%;
+  height:100%;
+ }
+ footer{
+ 	text-align: center;
+ 	background-color: black;
+ 	border: none;
+ 	height: 100px;
+ 	width: 105%;
+ 	padding: 0;
+ 	margin: 0 auto;
+ }
+ header{
+ 	height: 100px;
+ 	width: auto;
+ 	background-color: black;
+ }
